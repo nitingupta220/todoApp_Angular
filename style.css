@@ -1,0 +1,81 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: cadetblue;
+    font-family: aclonica, sans-serif;
+    box-sizing: border-box;
+}
+
+.todo-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: seashell;
+    height: 15vh;
+    justify-content: space-around;
+    font-family: aclonica, sans-serif;
+}
+
+h4,
+h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding: 4% 31%;
+}
+
+#list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0;
+    justify-content: c;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    list-style: none;
+}
+#list li {
+    margin: 20px;
+    font-size: 30px;
+    float: left;
+
+}
+#delete {
+    float: right;
+    border: 1px solid #ddd;
+    margin: 0;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    background-color: lightseagreen;
+    color: white;
+}
+
+input {
+    font-size: large;
+    font-family: aclonica, sans-serif;
+}
+
+.todo-number {
+    font-size: 4em;
+    color: aqua;
+}
