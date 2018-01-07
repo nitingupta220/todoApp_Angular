@@ -20,10 +20,7 @@
             <input type="text" placeholder="enter task title" name="title" ng-model="todoInput">
             <button ng-click="vm.addTask()" id="delete">Add New Task</button>
         </form>
-        <form class="todo-form">
-            <input type="text" placeholder="search task" ng-model="filter">
-            <button id="delete">Order By Title</button>
-        </form>
+       
         <ul id="list">
             <li ng-repeat="task in tasks | filter:filter " id="tasks">{{task.title}}
                 <input type="button" ng-click="removeTask()" value="Delete" id="delete"></li>
